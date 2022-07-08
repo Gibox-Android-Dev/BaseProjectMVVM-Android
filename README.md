@@ -1,9 +1,9 @@
 # AndroidBaseProject-MVVM
 
-1. git clone --depth 1 https://gitlab.com/giboxdev/baseprojectmvvm-android.git --origin BaseProjectMVVM-Android  [NEW-PROJECT-NAME]
+1. git clone --depth 1 https://github.com/Gibox-Android-Dev/baseprojectmvvm-android.git --origin BaseProjectMVVM-Android  [NEW-PROJECT-NAME]
 2. cd [NEW-PROJECT-NAME] 
 3. create new repo 
-4. git remote add origin https://[USERNAME-GITLAB]@gitlab.com/giboxdev/NEW-PROJECT-GITLAB-ACCOUNT]/[NEW-REPO-NAME].git 
+4. git remote add origin https://[USERNAME-GITLAB]@github.com/Gibox-Android-Dev/NEW-PROJECT-GITLAB-ACCOUNT]/[NEW-REPO-NAME].git 
 5. git fetch --unshallow 
 6. git add . 
 7. git branch -M main
