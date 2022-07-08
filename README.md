@@ -1,5 +1,7 @@
 # AndroidBaseProject-MVVM
 
+# This is template git terminal for add new project using this base project
+
 1. git clone --depth 1 https://github.com/Gibox-Android-Dev/baseprojectmvvm-android.git --origin BaseProjectMVVM-Android  [NEW-PROJECT-NAME]
 2. cd [NEW-PROJECT-NAME] 
 3. create new repo 
