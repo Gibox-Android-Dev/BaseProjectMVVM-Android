@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/drawable/shape_bottomsheet.xml" value="0.15833333333333333" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/activity_main2.xml" value="0.15896739130434784" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/bottomsheet_detail_marker.xml" value="0.23148148148148148" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/item_anchor.xml" value="0.1094224924012158" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/item_info_window.xml" value="0.1" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/item_user.xml" value="0.15896739130434784" />
+        <entry key="..\:/Project/baseprojectmvvm-android/app/src/main/res/layout/paging_footer.xml" value="0.15896739130434784" />
+<<<<<<< HEAD
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.32083333333333336" />
+=======
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/drawable/ic_arrow_left_white.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/drawable/ic_my_location.xml" value="0.35" />
+        <entry key="app/src/main/res/drawable/ic_triangle_down.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/layout/activity_face_detection.xml" value="0.334375" />
+        <entry key="app/src/main/res/layout/activity_list_user.xml" value="0.334375" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/activity_map_satellite.xml" value="0.3338541666666667" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.32135416666666666" />
+        <entry key="app/src/main/res/layout/bottomsheet_detail_marker.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/item_info_window.xml" value="0.334375" />
+        <entry key="app/src/main/res/layout/item_user.xml" value="0.33541666666666664" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.35052083333333334" />
+>>>>>>> dev_syafii
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

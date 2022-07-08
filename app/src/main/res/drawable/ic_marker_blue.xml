@@ -1,0 +1,25 @@
+<!--
+  ~ Created by Muhamad Syafii
+  ~ Thursday, 20/1/2022
+  ~ Copyright (c) 2022 by Gibox Digital Asia.
+  ~ All Rights Reserve
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="36dp"
+    android:viewportWidth="16"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#0082D0"
+        android:fillType="nonZero"
+        android:pathData="M8,4C10.209,4 12,5.7909 12,8C12,10.209 10.209,12 8,12C5.7909,12 4,10.209 4,8C4,5.7909 5.7909,4 8,4ZM0,8C0,9.421 0.3816,10.75 1.0312,11.906C1.1391,12.098 1.2522,12.287 1.375,12.469L8,24L14.625,12.469C14.727,12.318 14.815,12.158 14.906,12L14.969,11.906C15.618,10.75 16,9.421 16,8C16,3.5817 12.418,0 8,0C3.5817,0 0,3.5817 0,8Z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M8,3C5.2386,3 3,5.2386 3,8C3,10.761 5.2386,13 8,13C10.761,13 13,10.761 13,8C13,5.2386 10.761,3 8,3Z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+</vector>

@@ -1,0 +1,1 @@
+/Users/muhamadsyafii/Documents/Gibox/baseprojectmvvm-android-main/buildSrc/build/classes/kotlin/main/Libs.class:/Users/muhamadsyafii/Documents/Gibox/baseprojectmvvm-android-main/buildSrc/build/classes/kotlin/main/Versions.class

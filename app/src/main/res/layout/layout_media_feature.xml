@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by Muhammad Riza
+  ~ Thursday, 10/2/2022
+  ~ Copyright (c) 2022 by Gibox Digital Asia.
+  ~ All Rights Reserve
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_marginHorizontal="16dp"
+    android:paddingVertical="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lyt_fitur_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/lyt_fitur_2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_fitur_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_fab_image"
+            app:tint="#d4d4d4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fitur"
+            android:textColor="#d4d4d4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@id/img_fitur_1"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lyt_fitur_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/lyt_fitur_1"
+        app:layout_constraintRight_toLeftOf="@id/lyt_fitur_3">
+
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_fitur_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_fab_image"
+            app:tint="#d4d4d4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fitur"
+            android:textColor="#d4d4d4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@id/img_fitur_2"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lyt_fitur_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/lyt_fitur_2"
+        app:layout_constraintRight_toLeftOf="@id/lyt_delete">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_fitur_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_fab_image"
+            app:tint="#d4d4d4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fitur"
+            android:textColor="#d4d4d4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@id/img_fitur_3"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lyt_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        app:layout_constraintLeft_toRightOf="@id/lyt_fitur_3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_delete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_baseline_delete_24"
+            app:tint="#f00"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Delete"
+            android:textColor="#f00"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@id/img_delete"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

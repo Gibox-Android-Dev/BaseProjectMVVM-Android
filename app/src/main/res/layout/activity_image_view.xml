@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Muhamad Riza
+  ~ Thursday, 10/2/2022
+  ~ Copyright (c) 2022 by Gibox Digital Asia.
+  ~ All Rights Reserve
+  -->
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lyt_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/img_full"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+        </com.github.chrisbanes.photoview.PhotoView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/lyt_container_more_fitur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_anchorGravity="bottom"
+        app:layout_anchor="@id/lyt_image"
+        layout="@layout/layout_media_feature"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
